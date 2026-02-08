@@ -1,22 +1,14 @@
-
-        /* Internal Style */
-        #home {
-    /* Memanggil gambar background */
+    #home {
     background-image: url('Candi Cangkuang.jpg'); 
-    
-    /* Mengatur agar gambar menutupi seluruh area header */
+   
     background-size: cover; 
     
-    /* Memastikan gambar berada di tengah */
     background-position: center; 
     
-    /* Mencegah gambar berulang */
     background-repeat: no-repeat; 
     
-    /* Memberikan tinggi pada header agar gambar terlihat */
     height: 300px; 
     
-    /* Opsional: Membuat teks di dalamnya berada di tengah secara vertikal & horizontal */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +21,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #1c7831;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -107,4 +99,5 @@
             width: 100%;
             height: 100%;
             border: 0;
+
         }
