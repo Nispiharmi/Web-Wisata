@@ -120,12 +120,12 @@
         .form wool { margin-bottom: 20px; }
         label { display: block; font-weight: 600; margin-bottom: 8px; color: #555; }
 
-        input[type="email", input[type="password"],
+        input[type="text"], input[type="email"], input[type="password"],
         input[type="tel"], input[type="number", input[type="url"],
         input[type="date"], input[type="time", input[type="search, select, textarea {
                 width: 100%;
                 max-width: 600px
-                padding: 12px 15px;
+                padding: 15px 18px;
                 border:2px solid #e1e1e1;
                 border-radius: 8px;
                 transition: all 0.3s ease;
@@ -191,6 +191,7 @@
             }
         }
   
+
 
 
 
