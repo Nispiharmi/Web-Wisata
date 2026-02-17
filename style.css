@@ -120,6 +120,8 @@
         .form wool { margin-bottom: 20px; }
         label { display: block; font-weight: 600; margin-bottom: 8px; color: #555; }
 
+ 
+        .container { margin-bottom: 15px }
         input[type="text"], input[type="email"], input[type="password"],
         input[type="tel"], input[type="number", input[type="url"],
         input[type="date"], input[type="time", input[type="search"], select, textarea {
@@ -191,6 +193,7 @@
             }
         }
   
+
 
 
 
