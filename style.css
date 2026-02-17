@@ -123,17 +123,41 @@
 
  
         
-        input[type="text"], input[type="email"], input[type="password"],
-        input[type="tel"], input[type="number", input[type="url"],
-        input[type="date"], input[type="time", input[type="search"], select, textarea {
-                width: 100%;
-                max-width: 100%;
-                padding: 12px 15px;
-                border:2px solid #e1e1e1;
-                border-radius: 8px;
-                transition: all 0.3s ease;
-                box-sizing: border-box;
-                font-size: 1rem;
+        /* Membuat memenuhi lebar kolom */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+/* Style untuk tombol kirim agar lebih cantik */
+form input[type="submit"], 
+form button {
+    width: 100%;
+    background-color: #27ae60;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #219150;
+}
 
         /* styling buttons*/
         input[type="submit"], input[type="reset"], input[type="button"], button {
@@ -193,18 +217,3 @@
             form { padding: 15px; }
             }
         }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
